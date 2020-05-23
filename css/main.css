@@ -1,11 +1,145 @@
-body {
-  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-  font-style: normal;
-  font-size: 1rem;
-  color: #002240 !important;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-.nav-font {
-  font-weight: bold;
-  text-align: center;
+body {
+  display: flex;
+  width: 100%;
+  min-height: 100vh; /* telling your code to take the whole browser's space */
+  flex-direction: column;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #002240;
+  background-color: #ffffff;
+  font-size: 16px;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 59px;
+  align-items: center; /* vertically */
+  margin-left: 27px;
+}
+
+.header-image {
+  width: 128px;
+  height: 22px;
+}
+
+.hero-image {
+  object-fit: contain;
+}
+
+.tablet, .desktop {
+  display: none;
+}
+
+.flex-column {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.main-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+.main {
+  margin-top: 17px
+}
+
+.hero {
+  padding: 0 25px;
+}
+
+.hero-paragraph {
+  margin: 10px 0;
+  line-height: 24px;
+}
+
+.timeline-list {
+  background-color: #EFF8FF;
+  padding: 82px 25px;
+}
+
+.timeline-item {
+  display: flex;
+  width: 100%;
+}
+
+.timeline-date {
+  color: #002240;
+  font-weight: 700;
+}
+
+.email-circle {
+  min-width: 56px;
+  height: 56px;
+  border-radius: 100%;
+  background-color: #FFFFFF;
+  margin: 0 13px;
+}
+
+.email-icon {
+  margin: 13px 10px;
+}
+
+.timeline-description {
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.offices {
+  display: flex;
+  width: 100%;
+  height: 583px;
+  /* clip-path: polygon(0 18%, 100% 30%, 100% 100%, 0% 100%); */
+  background: #FFF5F5;
+}
+
+.office-card {
+  display: flex;
+  width: 271px;
+  height: 199px;
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+}
+
+/* Responsive */
+
+@media only screen and (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+
+  .tablet {
+    display: flex;
+  }
+
+  .hero-text-wrapper {
+    flex-direction: row;
+    margin-top: 25px;
+  }
+
+  .hero-paragraph:first-of-type {
+    margin: 10px 0 0 0;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .tablet{
+    display: none;
+  }
+
+  .desktop {
+    display: flex;
+  }
+
+
 }
