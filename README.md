@@ -12,3 +12,13 @@ Because the repo is private and GitHub doesn't like making private repos into pa
 - [AM] Yay, I learned so much today that I might be able to actually start without a framework
 
 - [PM] Mobile view almost done except for the footer; code needs clean up and might as well start on the tablet/desktop ~~hell~~ layout tomorrow
+
+## To Fix:
+
+- Width problem on mobile
+
+![Width](/problems/to fix_1.jpg)
+
+- Clip path references
+
+![Clip path references](/problems/to fix_2.jpg)
