@@ -1,3 +1,5 @@
+/* General */
+
 * {
   margin: 0px;
   padding: 0px;
@@ -15,6 +17,18 @@ body {
   font-size: 16px;
 }
 
+.tablet, .desktop, .menu {
+  display: none;
+}
+
+.flex-column {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+/* Hero */
+
 .header {
   display: flex;
   width: 100%;
@@ -30,16 +44,6 @@ body {
 
 .hero-image {
   object-fit: contain;
-}
-
-.tablet, .desktop {
-  display: none;
-}
-
-.flex-column {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
 }
 
 .main-title {
@@ -61,7 +65,76 @@ body {
   line-height: 24px;
 }
 
+.hero-paragraph:last-of-type {
+  margin: 10px 0 25px;
+}
+
+/* Culture */
+
+.culture {
+  padding: 0 25px;
+}
+
+.culture-title {
+  margin: 39px 0px 10px;
+}
+
+.culture-image {
+  width: 56px;
+  height: 56px;
+  margin: 0 0 10px;
+}
+
+.culture-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.culture-head {
+  font-weight: 700;
+  margin: 0 0 12px;
+}
+
+.culture-content {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 11px 0 30px;
+  color: #537089;
+}
+
+.culture-content:last-of-type{
+  margin: 0 0 25px;
+  color: #002240;
+}
+
+.culture-button {
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+  width: 272px;
+  height: 49px;
+  background-color: #0688FA;
+  border-radius: 5px;
+  margin: 0 0 22px;
+}
+
+.culture-button:hover {
+  background-color: #377DFF;
+}
+
+/* Timeline */
+
+.timeline-title {
+  text-align: center;
+  margin: 35px 0;
+}
+
 .timeline-list {
+  min-width: 320px;
   background-color: #EFF8FF;
   padding: 82px 25px;
 }
@@ -93,6 +166,16 @@ body {
   margin-bottom: 50px;
 }
 
+.progress-line {
+  width: 3px;
+  border-color: #0688FA;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 95px;
+  z-index: 0;
+}
+
 .offices {
   display: flex;
   width: 100%;
@@ -112,6 +195,7 @@ body {
 }
 
 /* Responsive */
+/* Tablet */
 
 @media only screen and (min-width: 768px) {
   .mobile {
@@ -130,7 +214,10 @@ body {
   .hero-paragraph:first-of-type {
     margin: 10px 0 0 0;
   }
+  
 }
+
+/* Desktop */
 
 @media only screen and (min-width: 1440px) {
   .tablet{
@@ -141,5 +228,7 @@ body {
     display: flex;
   }
 
-
+  .menu {
+    display: flex;
+  }
 }
