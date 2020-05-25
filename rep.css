@@ -1,0 +1,71 @@
+/* Tablet */
+
+@media only screen and (min-width: 768px) {
+	.mobile {
+		display: none;
+	}
+
+	.tablet {
+		display: flex;
+		max-width: 100%;
+	}
+
+/* HERO */
+
+	.header {
+		display: flex;
+		width: 100%;
+		height: 80px;
+		align-items: center;
+		padding: 0 69px;
+	}
+
+	.header-image {
+		width: 154px;
+    height: 26.55px;
+  }
+
+	.hero {
+		padding: 0 69px;
+  }
+  
+  .hero-text-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 38px 0 0;
+  }
+
+  .hero-paragraphs-wrapper {
+    width: 50vw;
+    margin: 0 0 0 56px;
+  }
+
+  .main-title {
+    margin: 0;
+    width: 50vw;
+  }
+}
+
+/* CULTURE */
+
+
+
+/* Desktop */
+
+@media only screen and (min-width: 1440px) {
+	.tablet {
+		display: none;
+	}
+
+	.desktop {
+		display: flex;
+	}
+
+	.menu {
+		display: flex;
+	}
+
+	.culture-button:hover {
+		background-color: #377dff;
+	}
+}

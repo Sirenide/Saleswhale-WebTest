@@ -49,6 +49,11 @@ a {
 	height: 22px;
 }
 
+.hero {
+	display: flex;
+	align-items: center;
+}
+
 .hero-image {
 	object-fit: contain;
 }
@@ -56,7 +61,7 @@ a {
 .main-title {
 	font-size: 32px;
 	font-weight: 700;
-	margin: 25px 0 0;
+	margin: 25px 0 20px;
 }
 
 .main {
@@ -70,6 +75,10 @@ a {
 .hero-paragraph {
 	margin: 10px 0;
 	line-height: 24px;
+}
+
+.hero-paragraph:first-of-type {
+	margin: 0 0 25px;
 }
 
 .hero-paragraph:last-of-type {
@@ -116,7 +125,6 @@ a {
 
 .culture-content:last-of-type {
 	margin: 0 0 25px;
-	color: #002240;
 }
 
 .culture-button {
@@ -240,7 +248,7 @@ a {
 	position: absolute;
 	z-index: 1;
 	align-items: center;
-	margin: 100px 0 0;
+	margin: 60px 0 0;
 }
 
 .card {
@@ -287,6 +295,7 @@ a {
 	position: relative;
 }
 
+/* CLIP-PATH VERSION
 .investors-bg {
 	display: flex;
 	height: 863px;
@@ -294,12 +303,20 @@ a {
 	clip-path: polygon(0 0, 100% 0, 100% 24%, 0 30.7%);
 	background: #fff5f5;
 	z-index: 0;
+} 
+*/
+
+.investors-bg-img {
+	background-image: url(assets/investors-bg.svg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
 .investors-title {
 	position: absolute;
 	top: 10px;
-	margin: 35px 0;
+	margin: 30px 0 0;
 	font-size: 28px;
 	line-height: 110%;
 	z-index: 2;
@@ -312,7 +329,7 @@ a {
 	position: absolute;
 	z-index: 2;
 	align-items: center;
-	margin: 100px 0 0;
+	margin: 60px 0 0;
 }
 
 .inv-card {
@@ -321,6 +338,7 @@ a {
 
 .circle-blue {
 	background-color: #64b4fa;
+	object-fit: contain;
 	position: absolute;
 	width: 141px;
 	height: 141px;
@@ -420,7 +438,7 @@ a {
 	border-radius: 5px;
 }
 
-/* Footer */
+/* Links */
 
 .footer {
 	display: flex;
@@ -497,7 +515,6 @@ a {
 	background-color: #f4f4f4;
 	height: 320px;
 	width: 100%;
-	margin: 70px 0 0;
 	align-items: center;
 }
 
@@ -505,7 +522,7 @@ a {
 	background-image: url(assets/footerm.svg);
 	background-position: bottom;
 	background-repeat: no-repeat;
-	margin: 0;
+	background-size: 100%;
 }
 
 .social {
@@ -550,51 +567,4 @@ a {
 	font-size: 14px;
 	line-height: 32px;
 	margin: 0 0 35px;
-}
-
-.waves {
-	display: flex;
-	bottom: 0;
-}
-
-/* Responsive */
-/* Tablet */
-
-@media only screen and (min-width: 768px) {
-	.mobile {
-		display: none;
-	}
-
-	.tablet {
-		display: flex;
-	}
-
-	.hero-text-wrapper {
-		flex-direction: row;
-		margin-top: 25px;
-	}
-
-	.hero-paragraph:first-of-type {
-		margin: 10px 0 0 0;
-	}
-}
-
-/* Desktop */
-
-@media only screen and (min-width: 1440px) {
-	.tablet {
-		display: none;
-	}
-
-	.desktop {
-		display: flex;
-	}
-
-	.menu {
-		display: flex;
-	}
-
-	.culture-button:hover {
-		background-color: #377dff;
-	}
 }
