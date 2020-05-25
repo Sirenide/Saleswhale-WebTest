@@ -258,6 +258,10 @@ a {
 	text-align: center;
 }
 
+.card:last-of-type {
+	margin: 0 0 55px;
+}
+
 .card-title {
 	font-weight: 700;
 	font-size: 26px;
@@ -317,8 +321,8 @@ a {
 
 .circle-blue {
 	background-color: #64b4fa;
-  position: absolute;
-  width: 141px;
+	position: absolute;
+	width: 141px;
 	height: 141px;
 	border-radius: 100%;
 	top: 97px;
@@ -328,8 +332,8 @@ a {
 
 .circle-yellow {
 	background-color: #ffcc33;
-  position: absolute;
-  width: 171px;
+	position: absolute;
+	width: 171px;
 	height: 171px;
 	border-radius: 100%;
 	top: 133px;
@@ -489,15 +493,20 @@ a {
 /* Footer */
 
 .bottom {
-  display: flex;
-  background-color: #f4f4f4;
+	display: flex;
+	background-color: #f4f4f4;
 	height: 320px;
 	width: 100%;
 	margin: 70px 0 0;
-  align-items: center;
-  
+	align-items: center;
 }
-  
+
+.bg-bottom-m {
+	background-image: url(assets/footerm.svg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	margin: 0;
+}
 
 .social {
 	display: flex;
@@ -520,32 +529,32 @@ a {
 }
 
 .terms {
-  display: flex;
-  margin: 0 0 23px;
-  align-items: center;
+	display: flex;
+	margin: 0 0 23px;
+	align-items: center;
 }
 
 .terms-link {
-  display: flex;
+	display: flex;
 	font-weight: 700;
 	font-size: 16px;
-  line-height: 32px;
-  margin: 0 0 10px;
+	line-height: 32px;
+	margin: 0 0 8px;
 }
 
 .terms-link:last-of-type {
-  margin: 0;
+	margin: 0;
 }
 
 .copyright {
-  font-size: 14px;
-  line-height: 32px;
-  margin: 0 0 35px;
+	font-size: 14px;
+	line-height: 32px;
+	margin: 0 0 35px;
 }
 
 .waves {
-  display: flex;
-  bottom: 0;
+	display: flex;
+	bottom: 0;
 }
 
 /* Responsive */
