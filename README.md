@@ -13,12 +13,17 @@ Because the repo is private and GitHub doesn't like making private repos into pa
 
 - [PM] Mobile view almost done except for the footer; code needs clean up and might as well start on the tablet/desktop ~~hell~~ layout tomorrow
 
+**Day 3 [25/05/2020]**
+- [AM] Finished mobile layout without foooter; probably gonna start on tablet later cuz this bitch makes me go crazy
+
 ## To Fix:
 
 - Width problem on mobile
 
-![Width](/problems/to fix_1.jpg)
+![Width](problems/to fix_1.jpg)
 
 - Clip path references
 
-![Clip path references](/problems/to fix_2.jpg)
+![Clip path references](problems/to fix_2.jpg)
+
+- Footer image
