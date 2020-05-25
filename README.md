@@ -17,7 +17,7 @@ Because the repo is private and GitHub doesn't like making private repos into pa
 - [AM] Finished mobile layout without foooter; probably gonna start on tablet later cuz this bitch makes me go crazy
 
 **Day 4 [26/05/2020]**
-- [AM] Started on tablet layout ~~with difficulty~~
+- [AM] Started on tablet layout ~~and it was confusing/annoying af~~
 
 ## To Fix:
 
