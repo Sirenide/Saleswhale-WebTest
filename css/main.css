@@ -95,6 +95,17 @@ a {
 	margin: 39px 0px 10px;
 }
 
+.culture-top {
+	line-height: 24px;
+	color: #537089;
+	margin: 0 0 30px;
+}
+
+.culture-description {
+	line-height: 24px;
+	margin: 0 0 23px;
+}
+
 .culture-image {
 	width: 56px;
 	height: 56px;
@@ -128,11 +139,14 @@ a {
 }
 
 .culture-button {
+	display: flex;
+	text-decoration: none;
 	align-items: center;
+	justify-content: center;
 	text-align: center;
+	font-weight: 700;
 	font-size: 16px;
 	line-height: 20px;
-	font-weight: 700;
 	color: #ffffff;
 	width: 272px;
 	height: 49px;
@@ -155,8 +169,8 @@ a {
 }
 
 .timeline-list {
-	min-width: 320px;
-	height: 915px;
+	flex-direction: column;
+	height: 817px;
 	background-color: #eff8ff;
 	padding: 75px 25px;
 	position: relative;
@@ -292,10 +306,19 @@ a {
 	width: 100%;
 	align-items: center;
 	justify-content: center;
-	position: relative;
+	background-image: url(../assets/investors-bg.svg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+	/* For Clip-Path
+	position: relative; 
+	*/
+
 }
 
 /* CLIP-PATH VERSION
+
 .investors-bg {
 	display: flex;
 	height: 863px;
@@ -304,36 +327,39 @@ a {
 	background: #fff5f5;
 	z-index: 0;
 } 
+
+Positioning and indices on certain classes within the investors section have been disabled since they have no use if the file isn't using the clip-path version.
+
 */
 
-.investors-bg-img {
-	background-image: url(assets/investors-bg.svg);
-	background-position: top;
-	background-repeat: no-repeat;
-	background-size: 100%;
-}
-
 .investors-title {
-	position: absolute;
-	top: 10px;
 	margin: 30px 0 0;
 	font-size: 28px;
 	line-height: 110%;
-	z-index: 2;
+
+	/* For Clip-Path
+	position: absolute;
+	z-index: 2; 
+	*/	
 }
 
 .investors-cards {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	position: absolute;
-	z-index: 2;
 	align-items: center;
 	margin: 60px 0 0;
+
+	/* For Clip-Path
+	position: absolute; 
+	z-index: 2; 
+	*/
 }
 
 .inv-card {
-	height: 146px !important;
+	height: 146px !important; 
+	
+	/* Since I used the default cards from the culture section, I had to make this important to overwrite the default height. */
 }
 
 .circle-blue {
@@ -386,56 +412,66 @@ a {
 	height: 377px;
 	width: 100%;
 	align-items: center;
-	justify-content: center;
-	position: relative;
+	background: url(../assets/future-bgm.svg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	/* position: relative; */
 }
 
-.future-bg {
+/* .future-bg {
 	display: flex;
 	height: 377px;
 	width: 100%;
 	clip-path: polygon(0 3%, 100% 14%, 100% 100%, 0 100%);
 	background: #329dfa;
 	z-index: 0;
-}
+} */
 
 .future-title {
-	position: absolute;
-	top: 10px;
-	margin: 80px 0;
+	margin: 110px 0 0; 
 	font-size: 32px;
 	line-height: 40px;
 	font-weight: 700;
 	color: #ffffff;
-	z-index: 2;
+	text-align: center;
+	/* 
+	position: absolute;
+	z-index: 2; 
+	top: 10px; 
+	*/
+
 }
 
 .button-future {
 	display: flex;
 	text-decoration: none;
-	position: absolute;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 23px;
-	width: 272px;
-	height: 49px;
+	
+	/* position: absolute; */
 }
 
 .button-demo {
 	background: #ffffff;
 	border-radius: 5px;
 	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+	margin: 60px 0 21px;
+	width: 272px;
+	height: 49px;
 }
 
 .button-cases {
-	top: 235px;
+	/* top: 235px; */
 	color: #ffffff;
 	background: #329dfa;
 	border: 1px solid #ffffff;
 	border-radius: 5px;
+	width: 272px;
+	height: 49px;
 }
 
 /* Links */
@@ -512,22 +548,22 @@ a {
 
 .bottom {
 	display: flex;
-	background-color: #f4f4f4;
-	height: 320px;
-	width: 100%;
+	flex-direction: column;
 	align-items: center;
-}
-
-.bg-bottom-m {
-	background-image: url(assets/footerm.svg);
+	background-color: #f4f4f4;
+	background-image: url(../assets/footerm.svg);
 	background-position: bottom;
 	background-repeat: no-repeat;
 	background-size: 100%;
+	height: 320px;
+	width: 100%;
+
 }
 
 .social {
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 	margin: 39px 0 20px;
 }
 
@@ -547,7 +583,7 @@ a {
 
 .terms {
 	display: flex;
-	margin: 0 0 23px;
+	margin: 0 0 12px;
 	align-items: center;
 }
 
@@ -557,10 +593,6 @@ a {
 	font-size: 16px;
 	line-height: 32px;
 	margin: 0 0 8px;
-}
-
-.terms-link:last-of-type {
-	margin: 0;
 }
 
 .copyright {

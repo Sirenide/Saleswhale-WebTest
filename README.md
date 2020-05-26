@@ -19,11 +19,17 @@ Because the repo is private and GitHub doesn't like making private repos into pa
 **Day 4 [26/05/2020]**
 - [AM] Started on tablet layout ~~and it was confusing/annoying af~~
 
+- [PM] Finished tablet layout
+
 ## To Fix:
 
 - [ ] Width problem on mobile
 
 ![Width](problems/to fix_1.jpg)
+
+- [ ] Font styles on tablet mode
+
+- [ ] Maybe centralize the timeline so when the browser is dragged, it stays at the certain (when I figure it out)
 
 - [x] Clip path references
 
