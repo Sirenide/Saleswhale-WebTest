@@ -1,4 +1,4 @@
-# Depression
+# Junior Web Dev Test
 
 **Site Link:** http://uwuwu-site.herokuapp.com/
 
