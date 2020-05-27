@@ -147,6 +147,9 @@
 
 	.offices {
 		height: 423px;
+		background: url(../assets/office-bgt.svg);
+		background-size: 100%;
+		background-position: bottom;
 	}
 
 	.offices-bg {
@@ -157,10 +160,15 @@
 		background: #fff5f5;
 	}
 
+	.offices-title {
+		font-size: 32px;
+		line-height: 40px;
+		margin: 60px 0 55px;
+	}
+
 	.offices-cards {
 		flex-direction: row;
 		justify-content: center;
-		margin: 60px 0 0;
 	}
 
 	.card {
@@ -180,23 +188,26 @@
 	}
 
 	.investors-title {
-		margin: 30px 0 0;
+		margin: 30px 0 50px;
 		font-size: 32px;
 		line-height: 33px;
 	}
 
 	.inv-row {
-		display: flex;
-		justify-content: center;
-		margin: 0 0 50px;
+		width: 600px;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: space-between;
 	}
 
 	.investors-cards {
-		margin: 60px 0 0
+		margin: 0;
 	}
 
 	.inv-card {
 		width: 272px !important;
+		margin: 0 0 50px !important;
+		
 	}
 
 	/* FUTURE */
