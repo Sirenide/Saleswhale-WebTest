@@ -152,13 +152,13 @@
 		background-position: bottom;
 	}
 
-	.offices-bg {
+	/* .offices-bg {
 		display: flex;
 		height: 583px;
 		width: 100%;
 		clip-path: polygon(0 37%, 100% 60%, 100% 100%, 0% 100%);
 		background: #fff5f5;
-	}
+	} */
 
 	.offices-title {
 		font-size: 32px;
@@ -178,6 +178,10 @@
 	.card:last-of-type {
 		margin: 0;
 	}
+
+	.card-text {
+    margin: 0;
+  }
 
 	/* INVESTORS */
 
@@ -205,8 +209,8 @@
 	}
 
 	.inv-card {
-		width: 272px !important;
-		margin: 0 0 50px !important;
+		width: 272px;
+		margin: 0 0 50px;
 		
 	}
 
@@ -216,8 +220,7 @@
 		justify-content: center;
 		height: 257px;
 		background-image: none;
-
-		padding: 20px 20px;
+		padding: 20px;
 	}
 
 	/* .future-bg {
@@ -267,12 +270,13 @@
 	}
 
 	.contacts-links {
+		flex-wrap: wrap;
 		margin: 0 0 0 105px;
 	}
 
-	.link-add {
+	/* .link-add {
 		margin: 0 0 0 30px;
-	}
+	} */
 	
 	.links-main {
 		margin: 0 0 22px;
@@ -321,24 +325,4 @@
 		line-height: 11px;
 	}
 	
-}
-
-/* Desktop */
-
-@media only screen and (min-width: 1440px) {
-	.tablet {
-		display: none;
-	}
-
-	.desktop {
-		display: flex;
-	}
-
-	.menu {
-		display: flex;
-	}
-
-	.culture-button:hover {
-		background-color: #377dff;
-	}
 }

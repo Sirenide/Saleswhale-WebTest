@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/tablet.css">
+  <link rel="stylesheet" href="css/desktop.css">
 
 </head>
 
@@ -18,14 +19,23 @@
   <header class="header">
     <img class="header-image" src="assets/sw-logo.svg" alt="Salewhale logo">
     <nav class="menu">
-      <ul>
-        <li class="menu-items">Why Saleswhale?</li>
-        <li class="menu-items">Product</li>
-        <li class="menu-items">Company</li>
+      <ul class="menu-list">
+        <li class="menu-items">
+          <a href="#">
+            Why Saleswhale?
+          </a></li>
+        <li class="menu-items">
+          <a href="#">
+            Product
+          </a></li>
+        <li class="menu-items">
+          <a href="#">
+            Company 
+          </a></li>
       </ul>
-      <div>
-        <button>Log in</button>
-        <button>Get a Demo</button>
+      <div class="header-buttons">
+        <a href="#" class="hbutton loginb">Log in</a>
+        <a href="#" class="hbutton demob">Get a Demo</a>
       </div>
     </nav>
   </header>
@@ -130,27 +140,27 @@
       <ul class="timeline-list">
         <li class="timeline-item">
           <span class="timeline-date">2015</span>
-          <div class="email-circle"><img class="email-icon" src="assets/mail.png" alt="Mail icon"></div>
+          <div class="email-circle"><img class="email-icon" src="assets/email.svg" alt="Mail icon"></div>
           <p class="timeline-description">Founded in Singapore by Gabriel Lim, Ethan Le, and Venus Wong</p>
         </li>
         <li class="timeline-item">
           <span class="timeline-date">2016</span>
-          <div class="email-circle"><img class="email-icon" src="assets/mail.png" alt="Mail icon"></div>
+          <div class="email-circle"><img class="email-icon" src="assets/email.svg" alt="Mail icon"></div>
           <p class="timeline-description">Accepted into Y Combinator (S16) and moved to San Francisco</p>
         </li>
         <li class="timeline-item">
           <span class="timeline-date">2017</span>
-          <div class="email-circle"><img class="email-icon" src="assets/mail.png" alt="Mail icon"></div>
+          <div class="email-circle"><img class="email-icon" src="assets/email.svg" alt="Mail icon"></div>
           <p class="timeline-description">Raised US$1.2M in seed funding and hired core engineers</p>
         </li>
         <li class="timeline-item">
           <span class="timeline-date">2019</span>
-          <div class="email-circle"><img class="email-icon" src="assets/mail.png" alt="Mail icon"></div>
+          <div class="email-circle"><img class="email-icon" src="assets/email.svg" alt="Mail icon"></div>
           <p class="timeline-description">Raised US$5.3M in Series A and expanded team size</p>
         </li>
         <li class="timeline-item">
           <span class="timeline-date">2020</span>
-          <div class="email-circle"><img class="email-icon" src="assets/mail.png" alt="Mail icon"></div>
+          <div class="email-circle"><img class="email-icon" src="assets/email.svg" alt="Mail icon"></div>
           <p class="timeline-description">Opened US office in Washington, DC and hired US sales team</p>
         </li>
 
@@ -237,15 +247,15 @@
 
     <!-- LINKS -->
 
-    <section class="footer flex-column">
+    <section class="footer">
 
       <img class="footer-image" src="assets/sw-logo.svg" alt="Salewhale logo">
 
-      <div class="contacts-links flex-column">
-        <div class="links-main">
-          <div class="links flex-column">
-            <h4 class="links-head">Why Saleswhale</h4>
-            <ul class="links-list flex-column">
+      <div class="contacts-links">
+
+          <div class="links">
+            <h4 class="links-head">Why Saleswhale BECAUSE FUCK THIS LINK LIST GOD FUCK.</h4>
+            <ul class="links-list">
               <li class="links-item">
                 <a href="#">AI Assistant Capabilities</a></li>
               <li class="links-item">
@@ -261,10 +271,10 @@
             </ul>
           </div>
 
-          <div class="links link-add flex-column">
+          <div class="links">
             <h4 class="links-head">Product</h4>
 
-            <ul class="links-list flex-column">
+            <ul class="links-list">
               <li class="links-item">
                 <a href="#">AI Conversations</a></li>
               <li class="links-item">
@@ -275,13 +285,11 @@
                 <a href="#">Workflow Integration</a></li>
             </ul>
           </div>
-        </div>
 
-        <div class="links-main">
-          <div class="links flex-column">
+          <div class="links">
             <h4 class="links-head">Company</h4>
 
-            <ul class="links-list flex-column">
+            <ul class="links-list">
               <li class="links-item lcompany">
                 <a href="#">About Us</a></li>
               <li class="links-item lcompany">
@@ -295,7 +303,7 @@
             </ul>
           </div>
 
-          <div class="link link-add flex-column">
+          <div class="links">
             <h4 class="links-head">Contact</h4>
 
             <ul class="links-list">
@@ -312,7 +320,7 @@
               <li class="links-p">155B Telok Ayer Street Singapore, 068611</li>
             </ul>
           </div>
-        </div>
+          
       </div>
     </section>
 
@@ -345,7 +353,7 @@
         </li>
       </ul>
   
-      <ul class="terms flex-column">
+      <ul class="terms">
         <li class="terms-link"><a href="#">Privacy</a></li>
         <li class="terms-link"><a href="#">Terms</a></li>
       </ul>

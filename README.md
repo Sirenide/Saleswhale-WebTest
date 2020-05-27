@@ -21,6 +21,10 @@ Because the repo is private and GitHub doesn't like making private repos into pa
 
 - [PM] Finished tablet layout
 
+**Day 5 [27/05/2020]**
+
+- Almost finished the desktop layout but I broke something cuz I thought it looked horrible. I'm extra sad now cuz I can't figure it out for now :<
+
 ## To Fix:
 
 - [ ] Width problem on mobile
@@ -30,6 +34,8 @@ Because the repo is private and GitHub doesn't like making private repos into pa
 - [ ] Font styles on tablet mode
 
 - [ ] Maybe centralize the timeline so when the browser is dragged, it stays at the certain (when I figure it out)
+
+- [ ] Footer link list lad. I want to fucking destroy it so much
 
 - [x] Clip path references
 

@@ -17,9 +17,8 @@ body {
 	font-size: 16px;
 }
 
-a {
+a:link {
 	text-decoration: none;
-	color: #002240;
 }
 
 .tablet,
@@ -207,6 +206,8 @@ a {
 }
 
 .email-icon {
+	width: 35.84px;
+	height: 27.23px;
 	margin: 13px 10px;
 	z-index: 2;
 }
@@ -233,9 +234,9 @@ a {
 	width: 100%;
 	align-items: center;
 	background: url(../assets/offices-bg.svg);
-  background-position: bottom;
+	background-position: bottom;
 	background-repeat: no-repeat;
-	background-size: 100% 461px; 
+	background-size: 100% 461px;
 	/* Adding the bg image's height in px allows it to stretch horizontally without messing it up vertically */
 }
 
@@ -384,7 +385,7 @@ Positioning and indices on certain classes within the investors section have bee
 	margin: 0 0 55px;
 }
 
-.circle-blue {
+/* .circle-blue {
 	background-color: #64b4fa;
 	object-fit: contain;
 	position: absolute;
@@ -405,7 +406,7 @@ Positioning and indices on certain classes within the investors section have bee
 	top: 133px;
 	left: -45px;
 	z-index: 3;
-}
+} */
 
 .combination-tm {
 	width: 220px;
@@ -479,6 +480,7 @@ Positioning and indices on certain classes within the investors section have bee
 
 .button-demo {
 	background: #ffffff;
+	color: #002240;
 	border-radius: 5px;
 	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
 	margin: 60px 0 21px;
@@ -500,6 +502,7 @@ Positioning and indices on certain classes within the investors section have bee
 
 .footer {
 	display: flex;
+	flex-direction: column;
 	width: 100%;
 	height: 678px;
 	padding: 0 27px;
@@ -514,6 +517,9 @@ Positioning and indices on certain classes within the investors section have bee
 
 .contacts-links {
 	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 100%;
 }
 
 .links-main {
@@ -523,11 +529,13 @@ Positioning and indices on certain classes within the investors section have bee
 
 .links {
 	display: flex;
-	width: 100%;
+	flex-direction: column;
+	max-width: 100%;
 }
 
 .links-list {
 	display: flex;
+	flex-direction: column;
 	width: 100%;
 }
 
@@ -605,6 +613,8 @@ Positioning and indices on certain classes within the investors section have bee
 
 .terms {
 	display: flex;
+	flex-direction: column;
+	width: 100%;
 	margin: 0 0 12px;
 	align-items: center;
 }
