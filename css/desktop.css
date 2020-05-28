@@ -27,6 +27,9 @@
     height: 108px;
     width: 100%;
     padding: 0 117px;
+    background: #FFFFFF;
+    position: fixed;
+    z-index: 999999999999999999999;
   }
 
   .header-image {
@@ -108,9 +111,8 @@
   /* HERO */
 
   .hero {
-    padding: 0 69px;
     width: 100%;
-    padding: 0 117px;
+    padding: 108px 117px 0;
   }
 
   .main {
