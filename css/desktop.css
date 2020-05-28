@@ -70,7 +70,7 @@
     line-height: 23px;
   }
 
-  .loginb {
+  .button-login {
     width: 96px;
     height: 42px;
     border: 1px solid #0688FA;
@@ -80,12 +80,29 @@
     margin: 0 13px 0 40px;
   }
 
-  .demob {
+  .button-demoh {
     width: 151px;
     height: 42px;
     background: #0688FA;
     font-size: 18px;
     line-height: 23px;
+    color: #FFFFFF;
+  }
+
+  .button-login:visited {
+    color: #002240;
+  }
+  
+  .button-demoh:visited {
+    color: #FFFFFF;
+  }
+  
+  .button-future:hover,
+  :focus {
+    background-color: #1575BE;
+  }
+  
+  .button-demoh:hover, :focus {
     color: #FFFFFF;
   }
 
@@ -417,13 +434,23 @@
   }
 
   .contacts-links {
-    flex-wrap: wrap;
-    margin: 0 0 0 186px;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 0 0 0 180px;
   }
 
   .links {
     display: flex;
     flex-direction: column;
+    width: 100%;
+  }
+
+  .links-ws {
+    margin: 0 41px 0 0;
+  }
+
+  .link-contact {
+    width: 75%;
   }
 
   .links-list {
@@ -442,17 +469,21 @@
   }
 
   .links-item {
-    margin: 0 20px 0 0;
+    margin: 0;
     font-size: 18px;
     line-height: 42px;
   }
 
   .links-item:last-of-type {
-    margin: 0 0 25px;
+    margin: 0;
   }
 
   .lcompany {
-    margin: 0 20px 16px 0;
+    margin: 0;
+  }
+
+  .lcompany-div {
+    width: 75%;
   }
 
   .links-head {
