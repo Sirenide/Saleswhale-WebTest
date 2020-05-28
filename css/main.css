@@ -19,6 +19,10 @@ a:hover {
 	color: #198CF7;
 }
 
+a:active {
+	color: #198CF7;
+}
+
 body {
 	display: flex;
 	width: 100%;
@@ -195,8 +199,13 @@ body {
 }
 
 .culture-button:hover,
-:focus {
-	background-color: #1575BE;
+.culture-button:focus {
+	background: #1575BE;
+}
+
+.culture-button:active {
+	background: #1575BE;
+	color: #FFFFFF;
 }
 
 /* Timeline */
@@ -237,7 +246,7 @@ body {
 }
 
 .timeline-item:last-of-type {
-	margin: 0 0;
+	margin: 0;
 }
 
 .timeline-date {
@@ -256,8 +265,8 @@ body {
 }
 
 .email-icon {
-	width: 35.84px;
-	height: 27.23px;
+	width: 36px;
+	height: 28px;
 	margin: 13px 9px;
 	z-index: 2;
 }
@@ -564,11 +573,20 @@ Positioning and indices on certain classes within the investors section have bee
 }
 
 .button-future:hover,
-:focus {
-	background-color: #1575BE;
+.button-future:focus {
+	background: #1575BE;
 }
 
-.button-demo:hover, :focus {
+.button-demo:hover,
+.button-demo:focus {
+	color: #FFFFFF;
+}
+
+.button-demo:active {
+	color: #FFFFFF;
+}
+
+.button-cases:active {
 	color: #FFFFFF;
 }
 
