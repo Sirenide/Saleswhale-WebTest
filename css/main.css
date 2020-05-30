@@ -40,13 +40,6 @@ body {
 	display: none;
 }
 
-.flex-column {
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-
-}
-
 /* Hero */
 
 .header {
@@ -68,7 +61,7 @@ body {
 }
 
 .hero-image {
-	object-fit: contain;
+	object-fit: fill;
 }
 
 .main-title {

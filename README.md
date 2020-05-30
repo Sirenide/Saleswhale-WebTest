@@ -25,17 +25,23 @@ Because the repo is private and GitHub doesn't like making private repos into pa
 
 - Almost finished the desktop layout but I broke something cuz I thought it looked horrible. I'm extra sad now cuz I can't figure it out for now :<
 
+**Day 6 [28/05/2020]**
+- Polishing
+
+**Day 7 [30/05/2020]**
+- Ready for submission
+
 ## To Fix:
 
-- [ ] Width problem on mobile
+- [x] Width problem on mobile
 
 ![Width](problems/to fix_1.jpg)
 
-- [ ] Font styles on tablet mode
+- [x] Font styles on tablet mode
 
 - [ ] Maybe centralize the timeline so when the browser is dragged, it stays at the certain (when I figure it out)
 
-- [ ] Footer link list lad. I want to fucking destroy it so much
+- [x] Footer link list lad. I want to fucking destroy it so much
 
 - [x] Clip path references
 

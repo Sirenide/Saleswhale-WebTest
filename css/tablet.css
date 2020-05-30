@@ -40,7 +40,6 @@
 		flex-direction: row;
 		/* flex-direction: column; */
 		width: 100%;
-
 		justify-content: space-between;
 		margin: 38px 0 0;
 	}
