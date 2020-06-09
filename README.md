@@ -1,8 +1,8 @@
 # Saleswhale Junior Web Development Test
 
-**Site Link:** http://uwuwu-site.herokuapp.com/
+**Live Website Link:** http://uwuwu-site.herokuapp.com/
 
-Because the repo is private and GitHub doesn't like making private repos into pages unless I feed it cash. It's pretty sad.
+~~Because the repo is private and GitHub doesn't like making private repos into pages unless I feed it cash. It's pretty sad.~~ Repository now public, just because.
 
 ## Progress
 **Day 1 [23/05/2020]**
@@ -35,8 +35,6 @@ Because the repo is private and GitHub doesn't like making private repos into pa
 
 - [x] Width problem on mobile
 
-![Width](problems/to fix_1.jpg)
-
 - [x] Font styles on tablet mode
 
 - [ ] Maybe centralize the timeline so when the browser is dragged, it stays at the certain (when I figure it out)
@@ -44,7 +42,5 @@ Because the repo is private and GitHub doesn't like making private repos into pa
 - [x] Footer link list lad. I want to fucking destroy it so much
 
 - [x] Clip path references
-
-![Clip path references](problems/to fix_2.jpg)
 
 - [x] Mobile footer image
