@@ -1,4 +1,4 @@
-# Junior Web Dev Test
+# Saleswhale Junior Web Development Test
 
 **Site Link:** http://uwuwu-site.herokuapp.com/
 
